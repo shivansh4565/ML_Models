@@ -67,9 +67,9 @@ titanic-survival-prediction-logistic-regression/
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/titanic-survival-prediction-logistic-regression.git
+git clone (https://github.com/shivansh4565/ML_Models)
 
-cd titanic-survival-prediction-logistic-regression
+cd 
 
 pip install -r requirements.txt
 ```
