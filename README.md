@@ -1,106 +1,69 @@
-# Titanic Survival Prediction using Logistic Regression
+# Machine Learning Fundamentals
 
-## Overview
+This repository contains my learning notes, code examples, and projects covering the fundamentals of Machine Learning.
 
-This project builds a Machine Learning model to predict whether a passenger survived the Titanic disaster using Logistic Regression. The workflow includes data preprocessing, feature encoding, train-test splitting, model training, and performance evaluation using Scikit-Learn.
+## Topics Covered
 
-## Dataset
+### 1. Regression
 
-The project uses the Titanic dataset, which contains passenger information such as age, gender, passenger class, fare, and survival status.
+* Linear Regression
+* Cost Function
+* Gradient Descent
+* Train-Test Split
+* MSE, RMSE, R² Score
+* Underfitting vs Overfitting
+* House Price Prediction Project
 
-**Target Variable:** `Survived`
+### 2. Classification
 
-* 0 = Did Not Survive
-* 1 = Survived
+* Logistic Regression
+* K-Nearest Neighbors (KNN)
+* Decision Trees
+* Naive Bayes
+* Support Vector Machine (SVM)
+* Accuracy, Precision, Recall, F1 Score
+* Confusion Matrix
+* Titanic Survival Prediction Project
+
+### 3. Data Preparation & EDA
+
+* Problem Definition
+* Data Collection
+* Exploratory Data Analysis (EDA)
+* Data Cleaning
+* Data Preprocessing
+* Encoding and Scaling
+
+### 4. Feature Engineering
+
+* Feature Selection
+* Correlation Analysis
+* SelectKBest
+* Feature Engineering Techniques
+* Creating New Features
 
 ## Technologies Used
 
 * Python
-* Pandas
 * NumPy
+* Pandas
+* Matplotlib
+* Seaborn
 * Scikit-Learn
 
-## Project Workflow
+## Learning Goal
 
-1. Load and explore the dataset
-2. Handle missing values
-3. Encode categorical features
-4. Split data into training and testing sets
-5. Train a Logistic Regression model
-6. Make predictions on test data
-7. Evaluate model performance
+The goal of this repository is to build a strong foundation in Machine Learning by understanding data, preparing datasets, building models, and evaluating their performance.
 
-## Evaluation Metrics
+## Projects
 
-The model is evaluated using:
-
-* Accuracy Score
-* Confusion Matrix
-* Classification Report
-
-  * Precision
-  * Recall
-  * F1-Score
-
-## Results
-
-The Logistic Regression model achieves strong classification performance on the Titanic dataset and demonstrates the complete machine learning pipeline from preprocessing to evaluation.
-
-## Project Structure
-
-titanic-survival-prediction-logistic-regression/
-
-├── data/
-
-│   └── Titanic-Dataset.csv
-
-├── src/
-
-│   └── train.py
-
-├── requirements.txt
-
-├── README.md
-
-└── .gitignore
-
-## Installation
-
-```bash
-git clone (https://github.com/shivansh4565/ML_Models)
-
-cd 
-
-pip install -r requirements.txt
-```
-
-## Run the Project
-
-```bash
-cd src
-python train.py
-```
-
-## Key Learning Outcomes
-
-* Data preprocessing techniques
-* Handling missing values
-* Feature encoding
-* Logistic Regression implementation
-* Model evaluation and interpretation
-* Machine Learning workflow using Scikit-Learn
-
-## Future Improvements
-
-* Hyperparameter tuning using GridSearchCV
-* Feature engineering for improved accuracy
-* Cross-validation implementation
-* Model deployment using Flask or Streamlit
-* Comparison with Random Forest and XGBoost models
-* Interactive dashboard for predictions
+* House Price Prediction
+* Titanic Survival Prediction
 
 ## Author
 
-Shivansh
+**Shivansh Saxena**
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+---
+
+⭐ If you find this repository useful, consider giving it a star.
